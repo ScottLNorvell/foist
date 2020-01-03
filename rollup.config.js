@@ -8,7 +8,7 @@ export default [
   {
     input: 'src/main.js',
     output: {
-      name: 'rollupJestBoilerplate',
+      name: 'foist',
       file: pkg.browser,
       format: 'umd',
     },

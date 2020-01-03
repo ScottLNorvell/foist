@@ -1,13 +1,13 @@
 {
-  "name": "rollup-jest-boilerplate",
+  "name": "foist",
   "version": "1.0.1",
-  "main": "dist/rollup-jest-boilerplate.cjs.js",
-  "module": "dist/rollup-jest-boilerplate.esm.js",
-  "browser": "dist/rollup-jest-boilerplate.umd.js",
+  "main": "dist/foist.cjs.js",
+  "module": "dist/foist.esm.js",
+  "browser": "dist/foist.umd.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/algolia/rollup-jest-boilerplate"
+    "url": "https://github.com/scottlnorvell/foist"
   },
   "devDependencies": {
     "@babel/core": "7.7.7",
@@ -27,7 +27,8 @@
     "build": "rollup -c",
     "build:watch": "rollup -c -w",
     "watch": "concurrently 'yarn build:watch' 'yarn serve -l tcp://127.0.0.1'",
-    "test": "jest && yarn build"
+    "test": "jest && yarn build",
+    "tdd": "jest --watch"
   },
   "renovate": {
     "extends": [
