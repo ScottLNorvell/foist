@@ -1,6 +1,6 @@
 {
   "name": "foist",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "main": "dist/foist.cjs.js",
   "module": "dist/foist.esm.js",
   "browser": "dist/foist.umd.js",
